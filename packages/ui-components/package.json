@@ -1,0 +1,19 @@
+{
+  "name": "ui-components",
+  "version": "0.0.0",
+  "description": "React.js components library ",
+  "author": "Sergey Hursevich <hursik94@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/ui-components.test.js"
+  }
+}
