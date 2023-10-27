@@ -13,15 +13,8 @@
   "files": [
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:Sergey-Xursevich/lerna-monorepository.git"
-  },
-  "publishConfig": {
-    "registry": "git@github.com:Sergey-Xursevich/lerna-monorepository.git"
-  },
   "scripts": {
     "test": "node ./__tests__/ui-components.test.js"
   },
-  "gitHead": "b20cb067e3c54e264fa13295779fa7e146bc9df0"
+  "gitHead": "234a6d5c71d26fc9c34c311b3e44db2ce0bcb394"
 }
