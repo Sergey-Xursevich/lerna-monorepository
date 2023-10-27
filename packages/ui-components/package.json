@@ -13,8 +13,11 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "node ./__tests__/ui-components.test.js"
   },
-  "gitHead": "753636fe287bcf39c7066b07b41a2a0edd00d5fa"
+  "gitHead": "6bfe9a00cd9df642b9076cb93be6aec02e647937"
 }
