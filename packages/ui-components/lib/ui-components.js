@@ -3,5 +3,5 @@
 module.exports = uiComponents;
 
 function uiComponents() {
-  return 'Hello from uiComponents!2!';
+  return 'Hello from uiComponents!!';
 }
