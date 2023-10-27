@@ -5,7 +5,7 @@
   "author": "Sergey Hursevich <hursik94@gmail.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "lin/ui-components.js",
+  "main": "lib/ui-components.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,11 +13,16 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
-    "test": "node ./__tests__/ui-components.test.js"
+    "test": "node ./__tests__/ui-components"
   },
-  "gitHead": "6bfe9a00cd9df642b9076cb93be6aec02e647937"
+  "gitHead": "d7cd6e2e3ef6710ff2afee73a30018ad876625a2",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Sergey-Xursevich/lerna-monorepository.git",
+    "directory": "packages/ui-components"
+  },
+  "publishConfig": {
+    "@Sergey-Xursevich:registry": "https://npm.pkg.github.com"
+  }
 }
