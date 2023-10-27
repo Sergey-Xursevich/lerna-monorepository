@@ -16,5 +16,5 @@
   "scripts": {
     "test": "node ./__tests__/ui-components.test.js"
   },
-  "gitHead": "fb139bcfb09c8bf6a32c25c46f992c1c2c091768"
+  "gitHead": "753636fe287bcf39c7066b07b41a2a0edd00d5fa"
 }
