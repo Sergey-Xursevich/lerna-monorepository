@@ -1,5 +1,5 @@
 {
-  "name": "@watersport/ui-components",
+  "name": "@wt-test/ui-components",
   "version": "0.0.1-alpha.0",
   "description": "React.js components library ",
   "author": "Sergey Hursevich <hursik94@gmail.com>",
@@ -19,5 +19,6 @@
   },
   "scripts": {
     "test": "node ./__tests__/ui-components.test.js"
-  }
+  },
+  "gitHead": "96e22519b57d50fb0f81abbd7cd3e979ca91cd99"
 }
