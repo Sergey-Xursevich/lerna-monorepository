@@ -7,7 +7,6 @@ registries:
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    security-updates: true
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
