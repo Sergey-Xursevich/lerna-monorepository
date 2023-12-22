@@ -1,4 +1,9 @@
 version: 2
+registries:
+  artifact-registry:
+    type: npm-registry
+    url: https://npm.pkg.github.com
+    token: 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
 updates:
   - package-ecosystem: "npm"
     directory: "/"
