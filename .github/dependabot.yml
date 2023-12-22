@@ -3,7 +3,7 @@ registries:
   npm-registry:
     type: npm-registry
     url: https://npm.pkg.github.com
-    token: ${{secrets.DEPENDABOT_TOKEN}}
+    token: ${{DEPENDABOT_TOKEN}}
 updates:
   - package-ecosystem: "npm"
     directory: "/"
