@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
+    assignees:
+      - dependabot[bot]
+    reviewers:
+      - Sergey-Xursevich
+    labels:
+      - "dependencies"
+    commit-message:
+      prefix: "chore(deps):"
+    versioning-strategy: "auto"
