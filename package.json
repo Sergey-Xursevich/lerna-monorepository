@@ -10,7 +10,7 @@
     "@watersport/ui-react-icons": "^0.0.10"
   },
   "devDependencies": {
-    "lerna": "^7.4.1"
+    "lerna": "^8.0.1"
   },
   "publishConfig": {
     "access": "public"
