@@ -1,6 +1,6 @@
 version: 2
 registries:
-  npm-github:
+  watersport:
     type: npm-registry
     url: https://npm.pkg.github/com/watersport
     token: ${{secrets.DEPENDABOT_TOKEN}}
@@ -8,7 +8,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     registries:
-      - npm-github
+      - watersport
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
