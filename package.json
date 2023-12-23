@@ -6,7 +6,7 @@
   ],
   "dependencies": {
     "typescript": "^5.2.2",
-    "@watersport/ui-react": "^0.0.10",
+    "@watersport/ui-react": "^0.0.13",
     "@watersport/ui-react-icons": "^0.0.10"
   },
   "devDependencies": {
