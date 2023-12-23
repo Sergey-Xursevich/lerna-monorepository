@@ -2,7 +2,7 @@ version: 2
 registries:
   npm-registry:
     type: npm-registry
-    url: https://npm.pkg.github.com
+    url: https://npm.pkg.github.com/watersport
     token: ${{secrets.DEPENDABOT_TOKEN}}
 updates:
   - package-ecosystem: "npm"
