@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "dependencies": {
-    "@watersport/ui-react": "^0.0.11",
+    "@watersport/ui-react": "^0.0.15",
     "@watersport/ui-react-icons": "^0.0.10",
     "typescript": "^5.2.2"
   },
