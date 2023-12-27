@@ -4,7 +4,7 @@ registries:
     replaces-base: true
     type: npm-registry
     url: https://npm.pkg.github.com/watersport
-    token: ${{NPM_GITHUB_TOKEN}}
+    token: ${{ secrets.NPM_GITHUB_TOKEN }}
 updates:
   - package-ecosystem: "npm"
     directory: "/"
